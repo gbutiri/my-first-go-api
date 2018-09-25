@@ -101,7 +101,7 @@ func GetUser(w http.ResponseWriter, r *http.Request) {
 }
 
 func myHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "The Docs.\n/getusers -> get all users\n/getuser/{id} -> get one user based on ID")
+	fmt.Fprint(w, "The Docs.\n/getusers -> get all users\n/getuser?id={id} -> get one user based on ID")
 }
 
 // open opens the specified URL in the default browser of the user.
