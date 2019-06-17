@@ -1,4 +1,4 @@
-# my-first-go-api
+# My First GO API
 My First Go API
 
 # Initial Setup
