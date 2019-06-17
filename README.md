@@ -6,3 +6,6 @@ After getting project cloned, use the following command to get mysql drivers for
 
 `go get github.com/go-sql-driver/mysql`
 
+And for postgress,
+
+`go get github.com/lib/pq`
